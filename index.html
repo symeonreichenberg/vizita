@@ -15,8 +15,9 @@
 		<link rel="manifest" href="/site.webmanifest"/>
 		<meta name="msapplication-TileColor" content="#da532c"/>
 		<meta name="theme-color" content="#ffffff"/>
-		<link rel="stylesheet" href="./css/bootstrap.min.css"/>
-		<link rel="stylesheet" href="./css/styles.css"/>
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="css/styles.css"/>
+		<link rel="stylesheet" href="css/lightbox.min.css"/>
 		<link rel="preconnect" href="https://fonts.googleapis.com"/>
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"/>
@@ -35,10 +36,10 @@
 						<li class="nav-item">
 							<a class="nav-link" href="#vystupujici" onclick="closeMenu()">Vystupující</a>
 						</li>
-						<!--<li class="nav-item">
+						<li class="nav-item">
 							<a class="nav-link" href="#nemocnice" onclick="closeMenu()">Nemocnice</a>
 						</li>
-						<li class="nav-item">
+						<!--<li class="nav-item">
 							<a class="nav-link" href="#rolling" onclick="closeMenu()">Rolling</a>
 						</li>-->
 						<li class="nav-item">
@@ -83,9 +84,28 @@
 						<p class="text-center"><strong>Divadelní vystoupení skupiny Oldstars.</strong><br/><em>OLDstars z. s. jsou nezávislá umělecká skupina sdružující přes stovku studentů, převážně ze středních a vysokých uměleckých škol. Za osmnáct let své existence nastudovali přes 300 inscenací a uspořádali 18 ročníků divadelních festivalů.</em></p>
 						<p class="text-center"><em>Mezi ně patří benefiční festival OLDstars on the ROUD i Festival studentských divadel v pražském Divadle v Celetné, které se pravidelně uskutečňují dodnes. Pořádají divadelní turné a jiné kulturní projekty po celé republice. V rámci své pražské činnosti provozují ve Vršovicích dva prostory: sklepní HarOLD v Charkovské ulici a Bytové divadlo H2/O v nedaleké Košické ulici. Pravidelně se účastní studentských divadelních přehlídek a tradiční Noci divadel.</em></p>
 						<p class="text-center"><strong>Doménou OLDstars je participace studentů na provozu umělecké skupiny, včetně řízení jednotlivých projektů.<br/><a href="https://www.oldstars.cz/ target=_blank">www.oldstars.cz</a></strong></p>
-						<h4 class="text-center">Hudební vystoupení</h4>
+						<h4 class="text-center mb-3">Hudební vystoupení</h4>
 						<p class="text-center"><strong>Jedno křídlo nemocnice věnujeme dočasnému muzeu činnosti spolku Rolling. Uvidíte přehled her které jsme pořádali, uvidíte rekvizity, kostýmy a kulisy pomocí kterých chystáme zážitky a budete mít možnost si vše vyzkoušet ve fotokoutcích.</strong></p>
 					</div>
+				</div>
+			</div>
+		</section>
+		<section class="py-5">
+			<a class="anchor" id="nemocnice"></a>
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-8 col-12">
+						<h2 class="text-center rose-line"><span><span>Nemocnice</span></span></h2>
+						<p class="text-center">Posádková nemocnice (Vrchlabská kasárna) vznikla v době budování Terezína, přesněji v letech 1872-1873. Měla sloužit jako zdravotnické zázemí pevnostního města. Jejím patrně nejznámějším pacientem byl Gavrilo Princip, atentátník, který připravil o život následníka rakousko-uherského trůnu Františka Ferdinanda d'Este. Právě v terezínské nemocnici Princip v dubnu 1918 zemřel.</p>
+						<p class="text-center">Svému účelu budova sloužila i jako součást ghetta, které z města vytvořili nacisté. Byla místem, kde se židovští lékaři snažili zachraňovat životy vězněných navzdory nemocem a obtížným podmínkám.</p>
+						<p class="text-center">Po druhé světové válce zde opět vznikla vojenská nemocnice. Od roku 1958 je budova památkově chráněna. V devadesátých letech armáda Terezín opustila, nemocnice tak od roku 1997 nemá dlouhodobé využití a pomalu chátrá. Její historie a rozsáhlé prostory lákají zájemce o příležitostné prohlídky i filmaře - a zaujaly také spolek Rolling, který zde v roce 2017 našel své zázemí a místo k pořádání zážitkových her.</p>
+					</div>
+				</div>
+				<div class="row justify-content-center flex-row">
+					<a class="thumb-link" href="img/nem-1.jpg" data-lightbox="nemonnice"><img class="thumb" src="img/nem-1-thumb.jpg"/></a>
+					<a class="thumb-link" href="img/nem-2.jpg" data-lightbox="nemonnice"><img class="thumb" src="img/nem-2-thumb.jpg"/></a>
+					<a class="thumb-link" href="img/nem-3.jpg" data-lightbox="nemonnice"><img class="thumb" src="img/nem-3-thumb.jpg"/></a>
+					<a class="thumb-link" href="img/nem-4.jpg" data-lightbox="nemonnice"><img class="thumb" src="img/nem-4-thumb.jpg"/></a>
 				</div>
 			</div>
 		</section>
@@ -93,9 +113,9 @@
 			<a class="anchor" id="kontakty"></a>
 			<div class="container position-relative">
 				<div class="social">
-					<a href="" target="_blank"><img src="img/yout.svg"/></a>
-					<a href="" target="_blank"><img src="img/insta.svg"/></a>
-					<a href="" target="_blank"><img src="img/fcb.svg"/></a>
+					<a href="#" target="_blank" class="youtube"></a>
+					<a href="#" target="_blank" class="instagram"></a>
+					<a href="#" target="_blank" class="facebook"></a>
 				</div>
 				<div class="row">
 					<div class="col d-flex flex-column justify-content-center">
@@ -105,11 +125,11 @@
 					</div>
 				</div>
 				<div class="row justify-content-center mb-1">
-					<div class="col-2">
-						<a href="https://rolling.cz/" target="_blank"><img class="rolling d-block mx-auto" src="img/rolling-white.png"/></a>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="https://rolling.cz/" target="_blank"><img class="rolling d-block mx-auto" src="img/rolling.svg"/></a>
 					</div>
-					<div class="col-2">
-						<a href="http://www.mestoterezin.cz/" target="_blank"><img class="partner d-block mx-auto" src="img/terezin.png"/></a>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="http://www.mestoterezin.cz/" target="_blank"><img class="terezin d-block mx-auto" src="img/terezin.svg"/></a>
 					</div>
 				</div>
 				<div class="row">
@@ -122,6 +142,7 @@
 		<script type="text/javascript" src="./js/jquery.easing.min.js"></script>
 		<script type="text/javascript" src="./js/jquery.min.js"></script>
 		<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="./js/lightbox.min.js"></script>
 		<script type="text/javascript" src="./js/scripts.js"></script>
 	</body>
 </html>

@@ -37,8 +37,8 @@ footer .container {background-image: url('../img/footer.jpg'); background-size: 
 .logo {width: 33rem; margin-right: 2.5rem; margin-bottom: 1rem;}
 .logoNav {width: 8rem;}
 .arrow {width: 1.2rem; padding-top: 1.5rem; padding-bottom: 0.8rem;}
-.logo, .arrow {transition: opacity .15s ease-in-out;}
-.logo:hover, .logo:active, .logo:focus, .arrow:hover, .arrow:active, .arrow:focus {opacity: .75;}
+.logo, .arrow, .rolling, .terezin {transition: opacity .15s ease-in-out;}
+.logo:hover, .logo:active, .logo:focus, .arrow:hover, .arrow:active, .arrow:focus, .rolling:hover, .rolling:active, .rolling:focus, .terezin:hover, .terezin:active, .terezin:focus {opacity: .75;}
 .btn {font-size: 2.1rem; border-radius: 0; padding: 0rem 2rem; border: none;}
 .btn-primary {color: #ffffff; background-color: #000000;}
 .frame {color: #ffffff; background-color: #000000; font-size: 1.8rem; padding: 0rem 2rem; border: none;}
@@ -48,9 +48,18 @@ footer .container {background-image: url('../img/footer.jpg'); background-size: 
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {background-color: rgba(33, 37, 41, 0.75);}
 .rose {background-color: #E7C0B9; background-image: url('../img/rose.jpg'); background-repeat: no-repeat; background-size: contain; background-position: center bottom;}
 .social {display: flex; flex-direction: column; width: 3rem; position: absolute; right: 0;}
-.partner {width: 5rem; margin: auto;}
+.terezin {width: 5rem; margin: auto;}
 .rolling {width: 8rem; margin: auto;}
 .anchor{display: block; height: 150px; margin-top: -150px; visibility: hidden;}
+.youtube, .instagram, .facebook {width: 48px; height: 48px; background-position: center; background-repeat: no-repeat; background-size: cover; transition: all .15s}
+.youtube {background-image: url('../img/yout.svg');}
+.youtube:hover, .youtube:active, .youtube:focus {background-image: url('../img/yout-active.svg') !important;}
+.instagram {background-image: url('../img/insta.svg');}
+.instagram:hover, .instagram:active, .instagram:focus {background-image: url('../img/insta-active.svg') !important;}
+.facebook {background-image: url('../img/fcb.svg');}
+.facebook:hover, .facebook:active, .facebook:focus {background-image: url('../img/fcb-active.svg') !important;}
+.thumb-link {width: auto !important;}
+.thumb {margin: 0.5rem; width: 7rem;}
 @media (max-width: 1400px) {
 	.spacer {height: 14.3rem;}
 	.logo {width: 28rem;}
